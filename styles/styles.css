@@ -1,0 +1,87 @@
+body{
+    font-family: Manrope;
+    width: 100%;
+}
+
+.conteiner{
+    width: 1400px;
+    margin: 0 auto;
+    padding: 125px;
+}
+h1{
+    font-weight: 400;
+    text-align: left;
+
+    width: 956px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+}
+.picture{
+    margin-top: 30px;
+    background-image: url(../resources/design1.png);
+    width: 1150px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.picture p{
+    width: 510px;
+    height: 161px;
+    padding: 379px 40px;
+    color:rgba(255, 255, 255, 1);
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    letter-spacing: -0.03em;
+    text-align: left;
+   
+}
+
+.o-nas{
+width: 1051px;
+height: 518px;
+margin-top: 150px;  
+}
+
+.o-nas h2{
+width: 51px;
+height: 25px;
+
+
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+letter-spacing: -0.03em;
+text-align: left;
+}
+
+.o-nas p{
+width: 1048px;
+height: 366px;
+padding-top: 30px;
+
+font-size: 45px;
+font-weight: 400;
+line-height: 61.47px;
+letter-spacing: -0.03em;
+text-align: left;
+
+}
+
+.o-nas a{
+background-color:rgba(173, 24, 24, 1);
+display: block;
+width: 255px;
+height: 67px;
+line-height: 67px;
+text-align: center;
+margin-top: 60px;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+
+}
+
