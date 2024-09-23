@@ -226,7 +226,7 @@ h2{
     position: relative;
     margin: 0 auto;
     height: 717px;
-    background-image: url(/resources/forest_landscape.png);
+    background-image: url(../resources/forest_landscape.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -250,7 +250,7 @@ h2{
     content: '';
     display: block;
     position: absolute;
-    background-image: url(/resources/Vector.png);
+    background-image: url(../resources/Vector.png);
     width: 13px;
     height: 22px;
     background-size: cover;
@@ -275,6 +275,7 @@ h2{
     text-decoration: none;
 }
 .email{
+    color:grey;
     display: block;
     margin-top: 30px;
     font-size: 60px;
@@ -312,7 +313,7 @@ h2{
     text-align: center;
     margin-bottom: 30px;
 
-    
+
 }
 
 
