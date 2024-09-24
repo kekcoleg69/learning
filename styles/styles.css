@@ -12,6 +12,7 @@ body * {
 }
 
 
+
 .nav-section{
     padding-bottom: 70px;
     padding-top: 32px;
@@ -58,7 +59,7 @@ body * {
     padding-right: 125px;
     background-color: white;
     font-family: Manrope;
-    width: 1400px;
+    max-width: 1400px;
     margin: 0 auto;
     
 }
@@ -264,7 +265,6 @@ h2{
     margin-top: 186px;
     margin-bottom: 150px;
     margin-left: 124px;
-    /* width: 473px; */
 }
 .number{
     display: block;
