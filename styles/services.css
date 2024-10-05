@@ -1,0 +1,35 @@
+/* .conteiner_black{
+    background-color: black;
+    font-family: Manrope;
+    width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+.services_list{
+    padding-top: 151px;
+    padding-bottom: 150px;
+    width: 1150px;
+    margin: 0 auto;
+}
+.service{
+    margin-bottom: 69px;
+}
+.header_services{
+    padding-bottom:34px;
+}
+
+.service_picture{
+    width: 1150px;
+    height: 270px;
+}
+.name_service{
+    margin-top: 15px;
+    font-size: 30px;
+
+
+}
+
+.service:nth-last-child(1)
+{
+    margin-bottom: 0px;
+} */

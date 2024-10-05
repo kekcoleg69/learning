@@ -1,0 +1,48 @@
+#projects{
+
+    max-width: 100%;
+    margin-top: 150px;
+    padding-bottom: 150px;
+}
+.project_h{
+    margin-bottom: 30px;
+}
+.project_picture{
+    max-width: 1150px;
+    height: 450px;
+}
+.address{
+    margin-top: 15px;
+    margin-bottom: 23px;
+    font-size: 30px;
+}
+
+.detail{
+    display: block;
+    max-width: 127px;
+    height: 27px ;
+    color: rgba(173, 24, 24, 1);
+    font-size: 20px;
+    text-decoration: none;
+    }
+    .project{
+        margin-bottom: 90px;
+    }
+
+.all_projects{
+    display: block;
+    max-width: 100%;
+    height: 153px;
+    border-radius: 5px;
+    color: rgba(173, 24, 24, 1);
+    border: 1px solid rgba(173, 24, 24, 1);
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.all_projects:hover{
+    background-color: rgba(173, 24, 24, 1) ;
+    color:rgba(255, 255, 255, 1);
+}

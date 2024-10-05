@@ -1,0 +1,41 @@
+/* 
+.nav-section{
+    padding-bottom: 70px;
+    padding-top: 32px;
+    margin: 0 auto;
+    max-width: 1400px;
+    background-color: white;
+}
+
+.nav-conteiner{
+    margin: 0 auto;
+    max-width: 1151.35px;
+}
+
+.logo-img{
+    display:inline-block;
+    max-width: 126px;
+    margin-right: 550px;
+}
+
+.nav-menu{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+
+.nav-link{
+    color:rgba(18, 18, 18, 1);
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.nav-link:nth-last-child(1){
+    margin-right: 0;
+}
+
+.link_active, .nav-link:hover{
+    text-decoration: underline;
+    color: grey;
+} */
