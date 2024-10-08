@@ -3,7 +3,7 @@
     width: 100%;
 }
 
-#about_us p{
+.about__text{
     max-width: 1051px;
     padding-top: 30px;
 

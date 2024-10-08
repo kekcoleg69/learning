@@ -1,4 +1,4 @@
-/* .conteiner_black{
+.container_black{
     background-color: black;
     font-family: Manrope;
     width: 1400px;
@@ -31,4 +31,4 @@
 .service:nth-last-child(1)
 {
     margin-bottom: 0px;
-} */
+}
