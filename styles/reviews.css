@@ -1,0 +1,24 @@
+#reviews__list{
+    padding: 150px 192px 157px 124px;
+}
+.reviews{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.review{
+    width:calc(50% - 25px);
+}
+.review__title{
+    font-size: 45px;
+    line-height: 61.47px;
+    margin-bottom: 14px;
+}
+.review__text{
+    font-size: 22px;
+    line-height: 30px;
+}
+.review_big{
+    width: 75%;
+}

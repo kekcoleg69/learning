@@ -6,30 +6,21 @@
 @import "footer.css";
 @import "intro.css";
 @import "about_us.css";
+@import "reviews.css";
 
 html{
     scroll-behavior: smooth;
 }
 
 body {
+    margin: 0 auto;
+    max-width: 1400px;
     font-family: Manrope;
     background-color: #f5f5f5;
 }
 body * {
     letter-spacing: -0.03em !important;
 }
-
-
-
-/* .container{
-    padding-left: 125px;
-    padding-right: 125px;
-    background-color: white;
-    font-family: Manrope;
-    max-width: 1400px;
-    margin: 0 auto;
-    
-} */
 
 .container{
     margin: 0 auto;
@@ -119,6 +110,31 @@ h2{
         margin-top: 0;
     }
 
+
+
+
+
+    #reviews__list{
+        padding: 117px 15px 120px 16px;
+    }
+    .reviews{
+        margin-top: 30px;
+    }
+    .review{
+        width:calc(47% - 5px)
+    }
+    .review__title{
+        font-size: 35px;
+        line-height: 47.81px;
+        margin-bottom: 25px;
+    }
+    .review__text{
+        font-size: 20px;
+        line-height: 27.32px;
+    }
+    .review_big{
+        width: 75%;
+    }
 
 }
 
@@ -242,6 +258,30 @@ h2{
         font-size: 22px;
         line-height: 100px;
     }
+
+
+
+
+
+    #reviews__list{
+        padding: 80px 13px;
+    }
+    .reviews{
+        margin-top: 22px;
+    }
+    .review{
+        width:100%;
+    }
+    .review__title{
+        font-size: 25px;
+        line-height: 34.15px;
+        margin-bottom: 10px;
+    }
+    .review__text{
+        font-size: 16px;
+        line-height: 21.86px;
+    }
+
 }
 
 
