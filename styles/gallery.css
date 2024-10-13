@@ -44,6 +44,7 @@
     background-image: url(../resources/gallery_4.png);
 }
 .slide__title{
+    margin-top: 20px;
     position: absolute;
     left: 125px;
     bottom: 60px;
@@ -61,13 +62,13 @@
 .gallery__controls{
     display: flex;
     color: white;
+    gap: 14px;
 }
 .gallery__control-prev{
-    margin-right: 44px;
     background-color: transparent;
     border: none;
-    width: 19.62px;
-    height: 33.33px;
+    width: 40px;
+    height: 40px;
     background-image: url(../resources/vector_left.png);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -76,8 +77,8 @@
 .gallery__control-next{
     background-color: transparent;
     border: none;
-    width: 19.62px;
-    height: 33.33px;
+    width: 40px;
+    height: 40px;
     background-image: url(../resources/vector_right.png);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -86,11 +87,12 @@
 
 .gallery__control-prev:hover{
     cursor: pointer;
+    opacity: 50%;
 }
 .gallery__control-next:hover{
     cursor: pointer;
+    opacity: 50%;
 }
-
 
 .gallery__slide_active{
     opacity: 1;

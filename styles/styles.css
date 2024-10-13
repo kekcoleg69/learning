@@ -152,7 +152,7 @@ h2{
         line-height: 27.32px;
     }
     .slide__title{
-
+        margin-top: 4px;
         left: 50px;
         bottom: 80px;
         font-size: 25px;
@@ -370,12 +370,12 @@ h2{
         justify-content:space-between ;
     }
     .gallery__control-prev{
-        width: 14.71px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
     .gallery__control-next{
-        width: 14.71px;
-        height: 25px;
+        width: 30px;
+        height: 30px;
     }
 
 
