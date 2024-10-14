@@ -11,19 +11,38 @@
     <title>Метрика</title>
 </head>
 <body>
-    <!-- <header>
-        <div class="nav-section">
-            <div class="nav-container">
-                <a class="logo-link" href="/"> <img class="logo-img" src="resources/Metrika.png" alt="лого метрика"></a>
-                <div class="nav-menu">
-                    <a class="nav-link link_active" href="#about_us">О НАС</a>
-                    <a class="nav-link" href="#projects">ПРОЕКТЫ</a>
-                    <a class="nav-link" href="#services_list">УСЛУГИ</a>
-                    <a class="nav-link" href="#contacts">КОНТАКТЫ</a>
+    <header>
+        <section id="section__nav">
+            <div class="container__nav">
+                <div class="nav__content">
+                    <a class="logo-link" href="/"> <img class="logo-img" src="resources/Metrika.png" alt="лого метрика"></a>
+                    <div class="nav-menu">
+                        <a class="nav__link" href="#about_us">О НАС</a>
+                        <a class="nav__link" href="#projects">ПРОЕКТЫ</a>
+                        <a class="nav__link" href="#services_list">УСЛУГИ</a>
+                        <a class="nav__link" href="#contacts">КОНТАКТЫ</a>
+                    </div>
+                    <button class="js-burger-btn nav__burger-btn"></button>
+                    <div class="js-burger burger">
+                        <div class="js-burger__content burger__content">
+                            <a class="burger__logo-link" href="/"> <img class="logo-img" src="resources/Metrika.png" alt="лого метрика"></a>
+                            <div class="burger__nav-menu">
+                                <a class="burger__nav-link" href="#about_us">О НАС</a>
+                                <a class="burger__nav-link" href="#projects">ПРОЕКТЫ</a>
+                                <a class="burger__nav-link" href="#services_list">УСЛУГИ</a>
+                                <a class="burger__nav-link" href="#contacts">КОНТАКТЫ</a>
+                            </div>
+                            <p class="burger__text">для связи:</p>
+                            <div class="burger__contacts">
+                                <a href="tel:+79358954535">+7 935  895-45-35</a>
+                                <a href="mailto:hello@mail.com">hello@mail.com</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </header> -->
+        </section>
+    </header>
     <main>
         <div class="container">
             <section id="intro">
@@ -38,7 +57,7 @@
                         К нам обращаются за уютом, индивидуальными решениями и практичностью. 
                         Находим конструктивные решения для каждого интерьера,
                         вплоть до каждой детали — нацелены на результат.</p>
-                    <a class="view_services" href="#services_list">Посмотреть услуги</a>
+                    <a class="view_services" href="#services__list">Посмотреть услуги</a>
             </section>
             <section id="projects">
                 <h2 class="project__title">ПРОЕКТЫ</h2>
@@ -87,7 +106,23 @@
                     <h3 class="name_service">Комплектация</h3>
                     </li>
                 </ul>
-                <button class="btn__order_service">Заказать услугу</button>
+                <button class="js-btn  btn__order_service">Заказать услугу</button>
+                <div class="js-popup popup">
+                    <div class="js-popup__content popup__content">
+                        <div class="js-popup__close-btn popup__close-btn"></div>
+                        <div class="popup__info">
+                            <h3 class="popup__title">Заказать услугу</h3>
+                            <p class="popup__text">Заполните форму, мы свяжемся с вами в течение суток</p>
+                        </div>
+                        <div class="inputs">
+                            <input class="input" type="text" placeholder="Имя">
+                            <input class="input" type="text" placeholder="Электронная почта">
+                            <input class="input" type="text" placeholder="Номер телефона">
+                        </div>
+                        <button class="send-application-btn">Отправить</button>
+                    </div>
+                </div>
+
             </section>
         </div>
         <section id="reviews__list">
@@ -196,6 +231,8 @@
             <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
         </div>
     </footer> 
+    <script src="popup.js"></script>
+    <script src="burger.js"></script>
     <script src="gallery.js"></script>
 </body>
 </html> 

@@ -56,6 +56,7 @@
     color: white;
     line-height: 153px;
     text-align: center;
+    cursor: pointer;
 }
 .btn__order_service:hover{
     background-color: white;
